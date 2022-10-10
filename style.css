@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sect{
+    border: 1px solid transparent;
+    
+    text-align: center;
+    background-color: white;
+    height: 750px;
+    border-radius: 20px;
+    
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 550px;
+    margin-bottom: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card{
+    background: mediumslateblue;
+    height: 150px;
+    border-radius: 10px ;
+}
+.class img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 20px;
+    background-color: grey;
+    object-position: center;
+
+}
+.rat{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+    align-items: center;
+    margin-top: 10px;
+    
+
+}
+.rat i{
+    font-size: 30px;
+   
+
+}
+
+    
+
+    
+    
+    
+    
+
+
+h3{
+    margin-top: 80px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.slap{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+h2{
+    font-weight: lighter;
+}
+.slap i{
+   font-size: 25px;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cat{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    padding-top: 20px;
+}
+.name{
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
